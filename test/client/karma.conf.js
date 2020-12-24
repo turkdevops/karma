@@ -57,11 +57,11 @@ fs.lstat('node_modules/karma', (err, stats) => {
   console.log('**** Incorrect directory layout for karma self-tests ****')
   console.log(`
     $ npm install
-    
+
     $ npm run init
     # or if you're on Windows
     $ npm run init:windows
-    
+
     $ npm run build
   `)
   process.exit(1)
@@ -120,7 +120,7 @@ module.exports = function (config) {
     // level of logging
     // possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
     // CLI --log-level debug
-    logLevel: config.LOG_INFO,
+    logLevel: config.LOG_DEBUG,
 
     // enable / disable watching file and executing tests whenever any file changes
     // CLI --auto-watch --no-auto-watch
@@ -164,7 +164,7 @@ module.exports = function (config) {
       'karma-browserstack-launcher'
     ],
 
-    concurrency: 3,
+    concurrency: 1,
 
     forceJSONP: true,
 
