@@ -1,3 +1,32 @@
+## [6.3.1](https://github.com/karma-runner/karma/compare/v6.3.0...v6.3.1) (2021-03-24)
+
+
+### Bug Fixes
+
+* **client:** clearContext after complete sent ([#3657](https://github.com/karma-runner/karma/issues/3657)) ([c0962e3](https://github.com/karma-runner/karma/commit/c0962e34fb2c0a7a43bead8d600ad4a6dbb29c3d))
+
+# [6.3.0](https://github.com/karma-runner/karma/compare/v6.2.0...v6.3.0) (2021-03-23)
+
+
+### Features
+
+* support asynchronous `config.set()` call in karma.conf.js ([#3660](https://github.com/karma-runner/karma/issues/3660)) ([4c9097a](https://github.com/karma-runner/karma/commit/4c9097a59c666671aaa55177e03e8738e047e886))
+
+# [6.2.0](https://github.com/karma-runner/karma/compare/v6.1.2...v6.2.0) (2021-03-10)
+
+
+### Features
+
+* **plugins:** add support wildcard config for scoped package plugin ([#3659](https://github.com/karma-runner/karma/issues/3659)) ([39831b1](https://github.com/karma-runner/karma/commit/39831b1c2f9cbeebdba94c73ce353efb7c44e802))
+
+## [6.1.2](https://github.com/karma-runner/karma/compare/v6.1.1...v6.1.2) (2021-03-09)
+
+
+### Bug Fixes
+
+* **commitlint:** skip task on master ([#3650](https://github.com/karma-runner/karma/issues/3650)) ([3fc6fda](https://github.com/karma-runner/karma/commit/3fc6fdadd6b0ed6838de048c15485b1bd815fe23))
+* patch karma to allow loading virtual packages ([#3663](https://github.com/karma-runner/karma/issues/3663)) ([5bfcf5f](https://github.com/karma-runner/karma/commit/5bfcf5f37de6f0a12abcf9914c2fad510395b4d6))
+
 ## [6.1.1](https://github.com/karma-runner/karma/compare/v6.1.0...v6.1.1) (2021-02-12)
 
 
